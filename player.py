@@ -11,16 +11,6 @@ class Perso:
     def Draw(self, ecran):
         pygame.draw.rect(ecran, (self.color), (self.x, self.y, 10, 10))
 
-    def Collision(self, loop):
-        if self.x > 500:
-            loop = False
-        elif self.x < 0:
-            loop = False
-        elif self.y > 500:
-            loop = False
-        elif self.y < 0:
-            loop = False
-
     def Update(self, ecran):
         if self.dir == "up":
             self.y-=self.vit
