@@ -1,8 +1,3 @@
-# tron-game-python
-Je n'ai pas réussi à faire la queue je suis dégouté ! bref... (fichu .append dans un tableau à double dimension !)
-
-j'ai du coup essayé de trouver un gameplay différent pour que cela reste attractif à tester
-
 c'est un jeu multijoueur local à 2 (le must c'est d'être 2 pour jouer parce que sinon gérer ZQSD + les flèches c'est compliquer et c'est surtout moins fun !)
 
 si le jeu paraît trop lent, c'est possible d'augmenter la vitesse de base du jeu dans le fichier player.py ligne 6
